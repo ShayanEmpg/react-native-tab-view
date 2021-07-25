@@ -123,7 +123,7 @@ export default class TabBar<T extends Route> extends React.Component<
         // When tab width is dynamic, only adjust the scroll once we have all tab widths and layout
         return;
       }
-
+      if(prevProps.navigationState.index !== navigationState.index)
       this.resetScroll(navigationState.index);
     }
   }
