@@ -1,6 +1,6 @@
 {
   "name": "react-native-tab-view",
-  "version": "2.15.2",
+  "version": "5.0.1",
   "description": "Tab view component for React Native",
   "main": "lib/commonjs/index.js",
   "react-native": "lib/module/index.js",
@@ -93,5 +93,12 @@
       "module",
       "typescript"
     ]
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "expo": "^42.0.3",
+    "expo-asset": "^8.3.3",
+    "expo-constants": "^11.0.1",
+    "expo-keep-awake": "^9.2.0"
   }
 }
